@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-head {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solide green;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 100px;
+}
+
+.container-nav {
+  border: 1px solid black;
+  width: 100%;
+  height: 151px;
+  color: red;
+  background-color: #4B483D;
+}
+
+.container-middle {
+  border: 1px solid red;
+  width: 100%;
+  height: 151px;
+  color: orange;
+}
+
+.container-foot {
+  border: 1px solid brown;
+  width: 100%;
+  height: 151px;
+  color: purple;
+  background-color: #4B483D;
+}
+
+/*# sourceMappingURL=style.css.map */
