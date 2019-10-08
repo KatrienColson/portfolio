@@ -9,7 +9,7 @@ header{
     flex-direction: row;
     width: 100%;
     height: 151px;
-    color: #E4C6BE;
+    color: white;
     background-color: #4B483D;
     justify-content: space-between;
     align-items: flex-end;
@@ -17,48 +17,101 @@ header{
 .name{
     width: 50%;
     font-size: 4rem;
-   
-    }
-.buttons{
+    padding-top:103px;
+}
+ul{
     display: flex;
     flex-wrap: wrap;
-    width: 40%;
     justify-content: space-between;
-    margin-right: 20px; 
+    margin-right: 30px;
+    padding-bottom: 60px; 
+    
+    li{
+        list-style-type: none;
+        margin-left: 60px;
+        }
+        a{
+        color: #E4C6BE;
+        text-decoration: none; 
+        }
+    a:hover {
+        color: white;
+        }
 }
 //begin middle-portfolio
-.columns-portfolio{
+//eeste kader
+//derde kader
+.columns-portfolio-1{
     display: flex;
     flex-direction: row;
     width: 100%;
-    border: 1px solid black;
+    border-bottom: 1px solid #E4C6BE;
 }
-.photo-column-portfolio{
+.photo-column-portfolio-1{
     display: flex;
     flex-direction: column;
     width: 40%;
-    border: 1px solid #green;
-    .img{
-        
+
+    margin-left: 10px;
+    
+    a img{
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 60px;
+      padding-bottom: 30px;
     }
 }
-
-.text-column-portfolio{
+.text-column-portfolio-1{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     width: 60%;
-    height: 200px;
-    border: 1px solid red;
+
     padding-left: 50px;
-    padding-top: 20px;
     align-items: flex-end;
-    // p{
-    //     font-size: 1rem;
-    //     text-align: left;
-    //     margin-top:50px;
-    //     margin-right: 20px;
-    //     border-left: 2px solid #E4C6BE;
-    //     padding:20px;
-    // }
+    p{
+        font-size: 1rem;
+        text-align: left;
+        margin-right: 20px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
 }
+//tweede kader
+.columns-portfolio-2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 1px solid #E4C6BE;
+}
+.text-column-portfolio-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 60%;
+
+    padding-left: 50px;
+    align-items: flex-end;
+    p{
+        font-size: 1rem;
+        text-align: left;
+        margin-right: 20px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+}
+.photo-column-portfolio-2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+    margin-left: 10px;
+    
+    a img{
+      padding-left: 150px;
+      padding-top: 60px;
+      padding-bottom: 30px;
+    }
+}
+//derde kader
+
