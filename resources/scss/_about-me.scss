@@ -1,51 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-//navigatiebalk
-header{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    height: 151px;
-    color: #E4C6BE;
-    background-color: #4B483D;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-.name{
-    width: 50%;
-    font-size: 4rem;
-}
-ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-right: 30px;
-    padding-bottom: 10px; 
-    
-    li{
-        list-style-type: none;
-        margin-left: 60px;
-        }
-    a:link {
-        color: #E4C6BE;
-        text-decoration: none;
-        }
-    a:hover {
-        color: hotpink;
-        }
-}
-
 //middle of the page
 
 .columns{
     display: flex;
     flex-direction: row;
     width: 100%;
-   
+ 
 }
 .line-column{
     display: flex;
@@ -60,7 +19,7 @@ ul{
     flex-wrap: wrap;
     flex-direction: row;
     width: 70%;
-    height: 100px;
+
     justify-content: center;
     font-size: 4rem;
     p{
@@ -73,66 +32,3 @@ ul{
     }
 }
 
-//footbar
-.container-foot{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    height: 151px;
-    color: white;
-    background-color: #4B483D;
-    position: fixed;
-    bottom:0;
-}
-.box-5{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-}
-.box-5 div{
-    
-}
-.impossible{
-    display: flex;
-    flex-wrap: wrap;   
-    border-bottom:2px solid #E4C6BE;
-    padding-bottom: 20px;
-    margin-left: 40px;
-}
-.means{
-    display: flex;
-    flex-wrap: wrap;   
-    border-left:2px solid #E4C6BE;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.found{
-    display: flex;
-    flex-wrap: wrap; 
-    border-top:2px solid #E4C6BE;
-    padding-top: 20px;
-    width: 90px;
-    text-align: center;
-  
-}
-.solution{
-    display: flex;
-    flex-wrap: wrap;   
-    border-right:2px solid #E4C6BE;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-}
-.yet{
-    display: flex;
-    flex-wrap: wrap;
-    border-bottom:2px solid #E4C6BE;
-    margin-right: 40px;
-    padding-bottom: 20px;
-    padding-left:20px;
-    padding-right: 20px;
-}
