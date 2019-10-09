@@ -18,6 +18,7 @@ header{
     width: 50%;
     font-size: 4rem;
     padding-top:103px;
+    margin-left: 20px;
 }
 ul{
     display: flex;
@@ -49,15 +50,12 @@ ul{
     color: #4B483D;
     justify-content: center;
     align-items: center;
-   
+  
 }
 .middel-prtflo{
     font-size: 4rem;
 }
 //footbar
-footer{
-
-}
 .container-foot{
     display: flex;
     flex-wrap: wrap;
@@ -66,62 +64,60 @@ footer{
     height: 151px;
     color: white;
     background-color: #4B483D;
-    justify-content: space-evenly;
-    align-items: center; 
     
 }
 .box-5{
     display: flex;
-    flex-direction: row; 
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  
+}
+.box-5 div{
     
 }
 .impossible{
     display: flex;
     flex-wrap: wrap;   
     border-bottom:2px solid #E4C6BE;
-    width: 100px;
-    height: 100px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    padding-bottom: 20px;
+    margin-left: 40px;
+  
+  
 }
 .means{
     display: flex;
     flex-wrap: wrap;   
-    border-left:2px solid #E4C6BE;;
-    width: 100px;
-    height: 100px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    border-left:2px solid #E4C6BE;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 .found{
     display: flex;
-    flex-wrap: wrap;  
-    border-top:2px solid #E4C6BE;;
-    width: 100px;
-    height: 100px;
-    align-items: center;
+    flex-wrap: wrap; 
+    border-top:2px solid #E4C6BE;
+    padding-top: 20px;
+    width: 90px;
     text-align: center;
-    justify-content: center;
+  
 }
 .solution{
     display: flex;
     flex-wrap: wrap;   
-    border-right:2px solid #E4C6BE;;
-    width: 100px;
-    height: 100px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    border-right:2px solid #E4C6BE;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 .yet{
     display: flex;
     flex-wrap: wrap;
-    border-bottom:2px solid #E4C6BE;;
-    width: 100px;
-    height: 100px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    border-bottom:2px solid #E4C6BE;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    padding-left:20px;
+    padding-right: 20px;
 }
