@@ -5,11 +5,18 @@
     flex-direction: row;
     width: 100%;
     height: 440px;;
-    color: #4B483D;
+    color: $color-xl-text;
     justify-content: center;
     align-items: center;
 }
 .middel-prtflo{
-    font-size: 4rem;
+    font-size: 5rem;
+    font-family: $prtflo;
+}
+.middel-prtflo span{
+    display: none;
+  }
+.middel-prtflo:hover span{
+    display: inline;
 }
 

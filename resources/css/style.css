@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Metamorphous&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Calligraffitti|Trade+Winds&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +21,7 @@ header {
   flex-direction: row;
   width: 100%;
   height: 151px;
-  color: white;
+  color: #FFFFFF;
   background-color: #4B483D;
   justify-content: space-between;
   align-items: flex-end;
@@ -31,6 +34,7 @@ header {
   font-size: 5rem;
   padding-top: 90px;
   margin-left: 40px;
+  font-family: "Metamorphous", cursive;
 }
 
 ul {
@@ -65,7 +69,16 @@ ul a:hover {
 }
 
 .middel-prtflo {
-  font-size: 4rem;
+  font-size: 5rem;
+  font-family: "Trade Winds", cursive;
+}
+
+.middel-prtflo span {
+  display: none;
+}
+
+.middel-prtflo:hover span {
+  display: inline;
 }
 
 .columns {
@@ -100,7 +113,7 @@ ul a:hover {
   border-left: 2px solid #E4C6BE;
   padding: 20px;
   color: #4B483D;
-  font-family: "Metamorphous", cursive;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .columns-portfolio-1 {
@@ -130,7 +143,7 @@ ul a:hover {
   width: 60%;
   padding-left: 50px;
   align-items: flex-end;
-  font-family: "Metamorphous", cursive;
+  font-family: "Fira Sans", sans-serif;
 }
 .text-column-portfolio-1 p {
   font-size: 1rem;
@@ -139,7 +152,7 @@ ul a:hover {
   padding-right: 30px;
   padding-bottom: 30px;
   color: #4B483D;
-  font-family: "Metamorphous", cursive;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .columns-portfolio-2 {
@@ -156,7 +169,7 @@ ul a:hover {
   width: 60%;
   padding-left: 50px;
   align-items: flex-end;
-  font-family: "Metamorphous", cursive;
+  font-family: "Fira Sans", sans-serif;
 }
 .text-column-portfolio-2 p {
   font-size: 1rem;
@@ -165,7 +178,7 @@ ul a:hover {
   padding-right: 30px;
   padding-bottom: 30px;
   color: #4B483D;
-  font-family: "Metamorphous", cursive;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .photo-column-portfolio-2 {
@@ -209,7 +222,7 @@ ul a:hover {
   margin-right: 20px;
   padding: 20px;
   color: #4B483D;
-  font-family: "Metamorphous", cursive;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .container-foot {
@@ -276,6 +289,10 @@ ul a:hover {
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.impossible:hover, .means:hover, .solution:hover, .yet:hover {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

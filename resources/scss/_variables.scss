@@ -1,13 +1,32 @@
+//breakpoints mixin
+$phone-medium: 22em; //360px
+$phone-large: 30em; //480px
+$phablet: 37em; //600px
+$tablet: 37.5em; //768px
+$tablet-large: 56.25em; //900px
+$desktop: 64em; //1024px
+$desktop-medium: 75em; //1200px
+$desktop-large: 112,5em; //1800px
+
 // header & footer
-$header-bg: #FFFFFF; //kleur grote woorden
+$header-bg: #FFFFFF;  //kleur grote woorden
 $color-sm-text: #E4C6BE; //kleur van de kleine tekst in gekleurde balken
+$header-bcgr: #4B483D; //backgroundcolor voor header en footer
+
+//buttons
 $header-btn: #E4C6BE; //knop
 $header-btn-hv: #FFFFFF; //hover op knop
-$header-bcgr: #4B483D; //backgroundcolor voor header en footer
-$border: #E4C6BE;
-$font-btn: 'Metamorphous', cursive; //font: knoppen, quote, tekst
+$font-btn: 'Metamorphous', cursive; //font: knoppen, quote
+
+//borders
+$border: #E4C6BE; //alle streepjes
+
+//font geschreven text
+$font-text: 'Fira Sans', sans-serif; // font: tekst
 
 //middle
 $color-xl-text: #4B483D; //kleur grote tekst op middle pagina
 $color-m-text:  #4B483D; //kleur gewone tekst op middle pagina
 
+//lettertype speciaal op home pag
+$prtflo: 'Trade Winds', cursive;

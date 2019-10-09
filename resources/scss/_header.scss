@@ -1,15 +1,6 @@
-
-* {
-    margin: 0;
-    padding: 0;
-}
-head{
-    min-height: 100%;
-}
-body{
-    padding-top: 151px;
-    min-height: 100%;
-}
+@import url('https://fonts.googleapis.com/css?family=Metamorphous&display=swap');//knoppen, quote
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti|Trade+Winds&display=swap');//prtflo
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');//gewone tekst
 
 //navigatiebalk
 header{
@@ -18,7 +9,7 @@ header{
     flex-direction: row;
     width: 100%;
     height: 151px;
-    color: white;
+    color: $header-bg;
     background-color: $header-bcgr;
     justify-content: space-between;
     align-items: flex-end;
@@ -31,6 +22,7 @@ header{
     font-size: 5rem;
     padding-top:90px;
     margin-left: 40px;
+    font-family: $font-btn;
 }
 ul{
     display: flex;
