@@ -5,13 +5,12 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    border-bottom: 1px solid #E4C6BE;
+    border-bottom: 1px solid $border;
 }
 .photo-column-portfolio-1{
     display: flex;
     flex-direction: column;
     width: 40%;
-
     margin-left: 10px;
     
     a img{
@@ -26,15 +25,17 @@
     flex-wrap: wrap;
     flex-direction: row;
     width: 60%;
-
     padding-left: 50px;
     align-items: flex-end;
+    font-family: $font-btn;
     p{
         font-size: 1rem;
         text-align: left;
         margin-right: 20px;
         padding-right: 30px;
         padding-bottom: 30px;
+        color: $color-m-text;
+        font-family: $font-btn;
     }
 }
 //tweede kader
@@ -42,22 +43,24 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    border-bottom: 1px solid #E4C6BE;
+    border-bottom: 1px solid $border;
 }
 .text-column-portfolio-2{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     width: 60%;
-
     padding-left: 50px;
     align-items: flex-end;
+    font-family: $font-btn;
     p{
         font-size: 1rem;
         text-align: left;
         margin-right: 20px;
         padding-right: 30px;
         padding-bottom: 30px;
+        color: $color-m-text;
+        font-family: $font-btn;
     }
 }
 .photo-column-portfolio-2{

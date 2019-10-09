@@ -47,9 +47,10 @@ ul li {
 ul a {
   color: #E4C6BE;
   text-decoration: none;
+  font-family: "Metamorphous", cursive;
 }
 ul a:hover {
-  color: white;
+  color: #FFFFFF;
 }
 
 .container-middle {
@@ -88,6 +89,8 @@ ul a:hover {
   width: 70%;
   justify-content: center;
   font-size: 4rem;
+  color: #4B483D;
+  font-family: "Metamorphous", cursive;
 }
 .title-katrien p {
   font-size: 1rem;
@@ -96,6 +99,8 @@ ul a:hover {
   margin-right: 20px;
   border-left: 2px solid #E4C6BE;
   padding: 20px;
+  color: #4B483D;
+  font-family: "Metamorphous", cursive;
 }
 
 .columns-portfolio-1 {
@@ -125,6 +130,7 @@ ul a:hover {
   width: 60%;
   padding-left: 50px;
   align-items: flex-end;
+  font-family: "Metamorphous", cursive;
 }
 .text-column-portfolio-1 p {
   font-size: 1rem;
@@ -132,6 +138,8 @@ ul a:hover {
   margin-right: 20px;
   padding-right: 30px;
   padding-bottom: 30px;
+  color: #4B483D;
+  font-family: "Metamorphous", cursive;
 }
 
 .columns-portfolio-2 {
@@ -148,6 +156,7 @@ ul a:hover {
   width: 60%;
   padding-left: 50px;
   align-items: flex-end;
+  font-family: "Metamorphous", cursive;
 }
 .text-column-portfolio-2 p {
   font-size: 1rem;
@@ -155,6 +164,8 @@ ul a:hover {
   margin-right: 20px;
   padding-right: 30px;
   padding-bottom: 30px;
+  color: #4B483D;
+  font-family: "Metamorphous", cursive;
 }
 
 .photo-column-portfolio-2 {
@@ -180,7 +191,7 @@ ul a:hover {
   flex-direction: column;
   width: 28%;
   height: 100%;
-  border-right: 1px solid black;
+  border-right: 2px solid black;
 }
 
 .title-contact {
@@ -189,7 +200,16 @@ ul a:hover {
   flex-direction: row;
   width: 70%;
   justify-content: center;
-  font-size: 4rem;
+  font-size: 1rem;
+}
+.title-contact p {
+  font-size: 1rem;
+  text-align: left;
+  margin-top: 50px;
+  margin-right: 20px;
+  padding: 20px;
+  color: #4B483D;
+  font-family: "Metamorphous", cursive;
 }
 
 .container-foot {
@@ -198,7 +218,6 @@ ul a:hover {
   flex-direction: row;
   width: 100%;
   height: 151px;
-  color: white;
   background-color: #4B483D;
 }
 
@@ -207,6 +226,11 @@ ul a:hover {
   align-items: center;
   width: 100%;
   justify-content: space-between;
+}
+
+.box-5 div {
+  color: #E4C6BE;
+  font-family: "Metamorphous", cursive;
 }
 
 .impossible {

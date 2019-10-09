@@ -11,7 +11,7 @@
     flex-direction: column;
     width: 28%;
     height: 100%;
-    border-right: 1px solid #E4C6BE;
+    border-right: 1px solid $border;
 }
 
 .title-katrien{
@@ -19,16 +19,19 @@
     flex-wrap: wrap;
     flex-direction: row;
     width: 70%;
-
     justify-content: center;
     font-size: 4rem;
+    color:$color-xl-text;
+    font-family: $font-btn;
     p{
         font-size: 1rem;
         text-align: left;
         margin-top:50px;
         margin-right: 20px;
-        border-left: 2px solid #E4C6BE;
+        border-left: 2px solid $border;
         padding:20px;
+        color: $color-m-text;
+        font-family: $font-btn;
     }
 }
 
