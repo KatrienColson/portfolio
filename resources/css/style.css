@@ -78,6 +78,11 @@ ul a:hover {
   font-family: "Trade Winds", cursive;
 }
 
+a {
+  color: #4B483D;
+  text-decoration: none;
+}
+
 .middel-prtflo span {
   display: none;
 }
@@ -93,7 +98,7 @@ ul a:hover {
 }
 
 .cv {
-  margin-left: 20px;
+  padding-left: 20px;
   margin-top: 50px;
 }
 

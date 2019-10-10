@@ -15,11 +15,19 @@
 .middel-prtflo{
     font-size: 5rem;
     font-family: $prtflo;
+    
+    
+}
+a{
+    color: $header-bcgr;
+    text-decoration: none;
 }
 .middel-prtflo span{
     display: none;
+   
   }
 .middel-prtflo:hover span{
     display: inline;
+    
 }
 
