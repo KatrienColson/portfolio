@@ -2,32 +2,28 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-   
+    background-image: url("../img/keyboard-photo.jpeg");
+    background-position: center;
+    background-size: cover;
    
  }
 .line-column-contact{
     display: flex;
     flex-direction: column;
     width: 28%;
-    height: 100%;
-    border-right: 2px solid black;
-    
+    height: 400px;  
 }
-
  .title-contact{
-     display: flex;
-     flex-wrap: wrap;
-     flex-direction: row;
-     width: 70%;
-     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
     font-size: 1rem;
      p{
-         font-size: 1rem;
-         text-align: left;
-         margin-top: 50px;
-         margin-right: 20px;
-         padding:20px;
-         color: $color-m-text;
-         font-family: $font-text;
+        font-size: 1rem;
+        text-align: center;
+        color: $color-m-text;
+        font-family: $font-text;
     }
  }

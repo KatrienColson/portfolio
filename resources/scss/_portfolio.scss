@@ -22,10 +22,18 @@
     margin-top: 20px;
     
     a img{
-      padding-left: 28px;
-      padding-top: 28px;
-      border-radius: 15px;
+    padding-left: 28px;
+    padding-top: 28px;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    transition: width 2s, height 2s, transform 2s;
     }
+    a img:hover {
+        width: 400px;
+        height: 400px;
+        transform: rotate(180deg);
+      }
 }
 .text-column-portfolio-1{
     display: flex;
@@ -87,7 +95,14 @@
     a img{
    padding-left: 28px;
    padding-top: 28px;
-      
+   width: 200px;
+   height: 200px;
+   transition: width 2s, height 2s, transform 2s;   
     }
+    a img:hover {
+        width: 400px;
+        height: 400px;
+        transform: rotate(180deg);
+      }
 }
 
