@@ -11,13 +11,20 @@
     display: flex;
     flex-direction: column;
     width: 40%;
-    margin-left: 10px;
+    margin-left: 35px;
+    border-radius: 15px 50px;
+    background: $header-bcgr;
+    background-image: linear-gradient(to right,$header-bcgr, #9c9585);
+    padding: 20px; 
+    width: 250px;
+    height: 250px; 
+    margin-bottom: 20px;
+    margin-top: 20px;
     
     a img{
-      padding-left: 40px;
-      padding-right: 40px;
-      padding-top: 60px;
-      padding-bottom: 30px;
+      padding-left: 28px;
+      padding-top: 28px;
+      border-radius: 15px;
     }
 }
 .text-column-portfolio-1{
@@ -67,13 +74,20 @@
     display: flex;
     flex-direction: column;
     width: 40%;
-
     margin-left: 10px;
+    border-radius: 15px 50px;
+    background: #9c9585;
+    background-image: linear-gradient(to right,#9c9585, #4B483D);
+    padding: 20px; 
+    width: 250px;
+    height: 250px; 
+    margin-bottom: 20px;
+    margin-top: 20px;
     
     a img{
-      padding-left: 150px;
-      padding-top: 60px;
-      padding-bottom: 30px;
+   padding-left: 28px;
+   padding-top: 28px;
+      
     }
 }
 

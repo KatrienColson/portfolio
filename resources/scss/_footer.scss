@@ -5,6 +5,7 @@
     flex-direction: row;
     width: 100%;
     height: 151px;
+    background-image: linear-gradient(to right#9c9585, $header-bcgr);
     background-color: $header-bcgr;  
 }
 .box-5{
@@ -57,6 +58,7 @@
     padding-left:20px;
     padding-right: 20px;
 }
-.impossible:hover, .means:hover, .solution:hover, .yet:hover,{
-    font-size: 2rem;
-}
+.impossible:hover, .means:hover, .found:hover, .solution:hover, .yet:hover {
+    color: $header-btn-hv;
+    text-shadow: 2px 2px 4px #000000;
+  }

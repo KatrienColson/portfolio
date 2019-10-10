@@ -4,11 +4,18 @@
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    height: 440px;;
-    color: $color-xl-text;
+    height: 360px;
+    color: $prtflo-color;
     justify-content: center;
     align-items: center;
+    background-image: url("../img/achtergrond.jpg");
+    background-position: center;
+    background-size: cover;
 }
+// .background-img{
+//     background-image: url("img/achtergrond.jpg");
+//     height: 100px;
+// }
 .middel-prtflo{
     font-size: 5rem;
     font-family: $prtflo;
