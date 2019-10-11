@@ -6,12 +6,11 @@
     width: 100%;
     background-image: url("../img/pen-photo.jpeg");
     background-position: center;
-    background-size: cover;
-    
+    background-size: cover; 
 }
-.cv{
-    padding-left: 20px;
-    margin-top: 50px;
+.cv-link{
+    background-color: $header-bcgr;
+    padding: 15px;
 }
 .line-column{
     display: flex;
