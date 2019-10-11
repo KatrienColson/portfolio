@@ -8,7 +8,6 @@ header{
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    height: 151px;
     color: $header-bg;
     background-image: linear-gradient(to right,$header-bcgr, #9c9585);
     justify-content: space-between;
@@ -23,10 +22,8 @@ header{
     margin-top: 90px;
     margin-left: 40px;
     font-family: $font-btn;
-    border-top: 1px solid $border-bg;
-   
-    
- }
+    border-top: 1px solid $border-bg;   
+}
 ul{
     display: flex;
     flex-wrap: wrap;
@@ -48,3 +45,112 @@ ul{
         text-shadow: 2px 2px 4px #000000;
         }
 }
+/*aanpassing knoppen naar links*/
+@media screen and (max-width: 768px) {
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        color: $header-bg;
+        background-image: linear-gradient(to right,$header-bcgr, #9c9585);
+        justify-content: left;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+    }
+    .name{
+        width: 50%;
+        font-size: 2rem;
+        margin-top: 20px;
+        margin-left: 40px;
+        font-family: $font-btn;
+        border-top: 1px solid $border-bg;   
+    }
+    .nav{
+     
+        display: flex;
+        justify-content: left;
+    }
+    ul{
+        margin-right: 50px;
+        flex-direction: column;      
+    }  
+    li{
+        list-style-type: none;
+        margin-left: 60px;
+        margin-top: 20px;
+        }
+        a{
+        color: $header-btn;
+        text-decoration: none; 
+        font-family: $font-btn;
+        }
+    a:hover {
+        color: $header-btn-hv;
+        text-shadow: 2px 2px 4px #FFFFFF;
+        }
+}
+/*aanpassing naam kleiner*/
+/* knoppen in kolom gezet*/
+@media screen and (max-width: 600px) {
+        .name{
+            width: 50%;
+            font-size: 2rem;
+            margin-top: 20px;
+            margin-left: 40px;
+            font-family: $font-btn;
+            border-top: 1px solid $border-bg;   
+    }
+}
+/*aanpassing naam kleiner*/
+/*knoppen in kolom*/
+@media screen and (max-width: 320px){
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        color: $header-bg;
+        background-image: linear-gradient(to right,$header-bcgr, #9c9585);
+        justify-content: space-between;
+        align-items: flex-end;
+        position: fixed;
+        top: 0;  
+    }
+    .name{
+        width: 50%;
+        font-size: 2rem;
+        margin-top: 50px;
+        margin-left: 40px;
+        font-family: $font-btn;
+        border-top: 1px solid $border-bg;   
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-right: 50px;
+        padding-bottom: 60px; 
+      
+        li{
+            list-style-type: none;
+            margin-left: 60px;
+            text-align: left
+            
+            }
+            a{
+            color: black;
+            text-decoration: none; 
+            font-family: $font-btn;
+            text-align: left;
+            padding-top: 40px;
+            
+            }
+            a:hover {
+                color: $header-btn-hv;
+                text-shadow: 2px 2px 4px #FFFFFF;
+                }
+         }  
+} 
+

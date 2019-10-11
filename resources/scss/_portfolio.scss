@@ -6,6 +6,7 @@
     flex-direction: row;
     width: 100%;
     border-bottom: 1px solid $border;
+    padding-top: 50px;
 }
 .photo-column-portfolio-1{
     display: flex;
@@ -15,7 +16,7 @@
     border-radius: 15px 50px;
     background: $header-bcgr;
     background-image: linear-gradient(to right,$header-bcgr, #9c9585);
-    padding: 20px; 
+    padding-left: 20px; 
     width: 250px;
     height: 250px; 
     margin-bottom: 20px;

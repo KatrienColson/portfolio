@@ -8,3 +8,20 @@
 // @mixin desktop { @media only screen and (min-width: $desktop) { @content;}}
 // @mixin desktop-medium { @media only screen and (min-width: $desktop-medium) { @content;}}
 // @mixin desktop-large { @media only screen and (min-width: $desktop-large) { @content;}}
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 1160px) {
+    body {
+      background-color: blue;
+      color: $border-bg-bottom;
+      text-align: left;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, the background color is olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+      color: white;
+    }
+  }

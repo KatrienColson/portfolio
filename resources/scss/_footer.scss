@@ -4,9 +4,10 @@
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    height: 151px;
     background-image: linear-gradient(to right#9c9585, $header-bcgr);
     background-color: $header-bcgr;  
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .box-5{
     display: flex;
@@ -61,4 +62,22 @@
 .impossible:hover, .means:hover, .found:hover, .solution:hover, .yet:hover {
     color: $header-btn-hv;
     text-shadow: 2px 2px 4px #000000;
+  }
+  @media screen and (max-width: 320px){
+    .container-foot{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        background-image: linear-gradient(to right#9c9585, $header-bcgr);
+        background-color: $header-bcgr;  
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .box-5 div{
+        display: flex;
+        color:  $color-sm-text;
+        font-family: $font-btn;
+        flex-direction: column;
+    }
   }
