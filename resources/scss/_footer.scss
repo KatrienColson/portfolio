@@ -74,10 +74,17 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .box-5 div{
+    .box-5{
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
         color:  $color-sm-text;
         font-family: $font-btn;
-        flex-direction: column;
     }
+    .box-5 div{
+        color:  $color-sm-text;
+        font-family: $font-btn;
+        margin-top: 50px;
+    }
+    
   }
