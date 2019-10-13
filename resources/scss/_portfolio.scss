@@ -1,12 +1,16 @@
 //begin middle-portfolio
 //eeste kader
-//derde kader
+//derde kadermaking-padding{
+
+.making-padding{
+    padding-top: 50px;
+}
 .columns-portfolio-1{
     display: flex;
     flex-direction: row;
     width: 100%;
     border-bottom: 1px solid $border;
-    padding-top: 50px;
+    
 }
 .photo-column-portfolio-1{
     display: flex;
@@ -114,11 +118,21 @@
       }
 }
 @media screen and (max-width: 768px){
+    .making-padding{
+        padding-top: 100px;
+    }
     .columns-portfolio-1{
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         width: 100%;
         border-bottom: 1px solid $border;
-        padding-top: 100px;
+        padding-top: 20px;
+    }
+    .text-column-portfolio-2{
+        margin-top: 30px;
+    }
+    .photo-column-portfolio-2{
+        margin-top: 5px;
     }
 }

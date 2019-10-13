@@ -14,9 +14,7 @@
 }
 .middel-prtflo{
     font-size: 5rem;
-    font-family: $prtflo;
-  
-    
+    font-family: $prtflo;   
 }
 a{
     color: $header-bcgr;
@@ -30,4 +28,9 @@ a{
     display: inline;
     
 }
-
+@media screen and (max-width: 320px){
+    .middel-prtflo{
+        font-size: 4rem;
+        font-family: $prtflo;   
+    }
+}

@@ -4,7 +4,7 @@ https://katriencolson.github.io/portfolio/
 
 
 Wat ik wil?
-- Een modernere versie van de website, maar zolang dit nog niet is, enkele dingen finetunen, na verloop van tijd        andere mogelijkheden invullen, vb scrolling.
+- Een modernere versie van de website, maar zolang dit nog niet is, enkele dingen finetunen, na verloop van tijd        andere mogelijkheden invullen, vb scrolling, parralax.
 - Teksten aanvullen.
 
 Wat te doen om te verbeteren?

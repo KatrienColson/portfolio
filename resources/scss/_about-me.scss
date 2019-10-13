@@ -41,4 +41,15 @@
         font-family: $font-text;
     }
 }
+@media screen and (max-width: 320px){
+    .columns{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-image: url("../img/pen-photo.jpeg");
+        background-position: center;
+        background-size: cover; 
+        padding-top: 5px;
+    }
 
+}

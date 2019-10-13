@@ -5,25 +5,69 @@
     background-image: url("../img/keyboard-photo.jpeg");
     background-position: center;
     background-size: cover;
-   
+    padding-top: 20px;
  }
 .line-column-contact{
     display: flex;
     flex-direction: column;
     width: 28%;
-    height: 400px;  
+    margin-top: 400px;
 }
- .title-contact{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 70%;
-    justify-content: center;
-    font-size: 1rem;
-     p{
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    margin-top: 100px;
+    padding-left: 200px;   
+  }
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-box:hover .flip-box-inner {
+    transform: rotateX(180deg);
+}  
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}  
+.flip-box-front {
+    background-color: $header-bcgr;
+    color: #E4C6BE;
+    box-shadow:20px 20px 50px grey;  
+}  
+.flip-box-back {
+    background-color: #E4C6BE;
+    color: $header-bcgr;
+    transform: rotateX(180deg);
+    box-shadow:20px 20px 50px grey;  
+}
+.flip-box-back >div{
+        margin-top: 90px;
         font-size: 1rem;
-        text-align: center;
         color: $color-m-text;
         font-family: $font-text;
+}  
+.title-contact{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     p{
+        display: flex;
+        font-size: 1rem;
+        color: #E4C6BE;
+        font-family: $font-text;
+        padding-top: 20px;
+        padding-left: 10px; 
+        align-items: center; 
     }
- }
+}
