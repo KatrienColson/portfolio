@@ -26,6 +26,7 @@ header {
   align-items: flex-end;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 .name {
@@ -338,6 +339,7 @@ a {
   flex-direction: row;
   width: 60%;
   padding-left: 50px;
+  padding-right: 155px;
   align-items: flex-end;
   font-family: "Fira Sans", sans-serif;
 }
@@ -360,7 +362,6 @@ a {
   border-radius: 15px 50px;
   background: #9c9585;
   background-image: linear-gradient(to right, #9c9585, #4B483D);
-  padding: 20px;
   width: 250px;
   height: 250px;
   margin-bottom: 20px;
@@ -495,6 +496,7 @@ a {
   background-color: #4B483D;
   padding-top: 40px;
   padding-bottom: 40px;
+  z-index: 1000;
 }
 
 .box-5 {
